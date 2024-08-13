@@ -3,9 +3,7 @@ public class Main {
 
         int[] nums = {2,6,5,8,11};
 
-        int target = 8;
-
-        String ans =TwoSum1.twoSum2(nums.length, nums, target);
+        int ans = BuyAndSell.maximumProfit(nums);
 
         System.out.println(ans);
 

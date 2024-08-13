@@ -1,7 +1,7 @@
 // Buy and Sell Stock for maximum profit...
 
 // time Complexity: O(N)
-// space complexity : O(1)..
+// space complexity : O(1).
     class BuyAndSell
     {
         public static int maximumProfit(int[] arr)

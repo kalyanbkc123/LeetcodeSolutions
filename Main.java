@@ -1,11 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        int[] nums = {2,6,5,8,11};
-
-        int ans = BuyAndSell.maximumProfit(nums);
-
-        System.out.println(ans);
+        int[] arr = {2,3,1,4,5,5};
+        System.out.println("Answer is : "+ ContainsDuplicate3.containsDuplicate(arr));
 
     }
 }

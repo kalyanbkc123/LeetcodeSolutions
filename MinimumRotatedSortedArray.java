@@ -3,7 +3,7 @@ public class MinimumRotatedSortedArray {
 
     // Approach 1: Brute Force Approach
     // Time Complexity :: O(N)
-    // space complexity : O(1)
+    // space complexity :: O(1)
 
     public static int min(int[] nums)
     {

@@ -1,6 +1,6 @@
 package Binary2;
 
-public class NoOf1Bits {
+public class NoOf1Bits2 {
 
     public static int count(int n)
     {

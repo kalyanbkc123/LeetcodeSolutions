@@ -2,8 +2,8 @@ public class SearchInRotatedSortedArray8 {
 
 
     //Bruta Force Approach
-    // Time Complexity : O(N)
-    // Space Complexity : O(1)
+    // Time Complexity : O(N).
+    // Space Complexity : O(1).
 
     public static int search(int[] nums,int n, int k)
     {

@@ -1,6 +1,10 @@
 import java.util.Arrays;
 
 class ProductExceptItself4 {
+
+    // Approach
+    // Time Complexity : O(N)
+    // space Complexity : O(N)
     public static int[] productExceptItself(int[] nums)
     {
         int[] ans = new int[nums.length];

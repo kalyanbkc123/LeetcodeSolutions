@@ -1,5 +1,5 @@
 import java.util.*;
-public class ThreeSum8 {
+public class ThreeSum9 {
     // Brute Force Approach
     // Time Complexity : O(n^3)
     // Space Complexity :

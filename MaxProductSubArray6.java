@@ -1,7 +1,7 @@
 public class MaxProductSubArray6 {
 
     //1. Brute Force Approach
-    // Time Complexity :: O(N^3)
+    // Time Complexity :: O(N^3)..
     // Space Complexity :: O(1)..
 
     public static int maxProduct(int[] nums) {

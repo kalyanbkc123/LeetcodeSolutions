@@ -1,7 +1,7 @@
 public class MaximumSubArray5 {
 
     //1. Brute Force Approach
-    // Time Complexity :: O(N^3)
+    // Time Complexity :: O(N^3)..
     // Space Complexity :: O(1)
 
     public static int maxSubArray1(int[] nums)

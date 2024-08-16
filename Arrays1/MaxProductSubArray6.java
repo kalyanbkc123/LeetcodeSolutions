@@ -1,3 +1,5 @@
+package Arrays1;
+
 public class MaxProductSubArray6 {
 
     //1. Brute Force Approach

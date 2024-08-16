@@ -1,3 +1,4 @@
+package Arrays1;
 
 public class MinimumRotatedSortedArray7 {
 

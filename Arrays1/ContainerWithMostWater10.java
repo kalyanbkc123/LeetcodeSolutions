@@ -1,3 +1,5 @@
+package Arrays1;
+
 public class ContainerWithMostWater10 {
 
     // Time Complexity : O(N)

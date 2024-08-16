@@ -1,4 +1,4 @@
-
+package Arrays1;
 // Contains Duplicate or not.. If the given Array contains the same element twice...
 
 import java.util.Arrays;

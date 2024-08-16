@@ -1,3 +1,5 @@
+package Arrays1;
+
 public class MaximumSubArray5 {
 
     //1. Brute Force Approach

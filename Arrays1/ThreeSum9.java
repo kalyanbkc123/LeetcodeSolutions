@@ -1,3 +1,5 @@
+package Arrays1;
+
 import java.util.*;
 public class ThreeSum9 {
     // Brute Force Approach

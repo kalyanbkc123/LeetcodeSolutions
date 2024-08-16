@@ -5,8 +5,8 @@ import java.util.HashMap;
 class TwoSum1 {
 
     // Approach-1 Brute Force
-    // Time Complexity :: O(n^2)
-    // Space Complexity :: O(1)
+    // Time Complexity :: O(n^2).
+    // Space Complexity :: O(1).
     public static String twoSum(int n, int[] arr, int target)
     {
         for(int i=0; i < n; i++)

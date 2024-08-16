@@ -1,6 +1,6 @@
 // Buy and Sell Stock for maximum profit...
 
-// time Complexity: O(N)
+// time Complexity: O(N).
 // space complexity : O(1).
     class BuyAndSell
     {

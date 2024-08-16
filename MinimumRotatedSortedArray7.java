@@ -1,5 +1,5 @@
 
-public class MinimumRotatedSortedArray {
+public class MinimumRotatedSortedArray7 {
 
     // Approach 1: Brute Force Approach
     // Time Complexity :: O(N)
@@ -45,6 +45,8 @@ public class MinimumRotatedSortedArray {
     }
 
     //Approach-3
+    // Time Complexity : O(logN)
+    // Space Complexity : O(1)
     public static int min3(int[] nums)
     {
         int min = Integer.MAX_VALUE;
@@ -55,28 +57,27 @@ public class MinimumRotatedSortedArray {
         {
             int mid = (low+high)/2;
 
-            if(nums[low] <= nums[high]) // Already is already sorted
+            if(nums[low] <= nums[high]) // Array is already sorted
             {   min = Math.min(min, nums[low]);
                 break;
             }
-            else if(nums[low] <= nums[mid])
+            else if(nums[low] <= nums[mid]) // left part is already sorted
             {
                 min = Math.min(min, nums[low]);
                 low = mid+1;
             }
-            else
+            else // right part is already sorted
             {
                 min = Math.min(min, nums[mid]);
-                low = mid-1;
+                high = mid-1;
             }
-
         }
         return min;
     }
 
     public static void main(String[] args) {
 
-        int[] arr = {4,5,6,7,1,2,3};
+        int[] arr = {3,1,2,0};
 
         int result = min3(arr);
 

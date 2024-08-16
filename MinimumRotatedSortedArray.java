@@ -44,11 +44,41 @@ public class MinimumRotatedSortedArray {
         return min;
     }
 
+    //Approach-3
+    public static int min3(int[] nums)
+    {
+        int min = Integer.MAX_VALUE;
+
+        int low = 0, high = nums.length-1;
+
+        while(low <= high)
+        {
+            int mid = (low+high)/2;
+
+            if(nums[low] <= nums[high]) // Already is already sorted
+            {   min = Math.min(min, nums[low]);
+                break;
+            }
+            else if(nums[low] <= nums[mid])
+            {
+                min = Math.min(min, nums[low]);
+                low = mid+1;
+            }
+            else
+            {
+                min = Math.min(min, nums[mid]);
+                low = mid-1;
+            }
+
+        }
+        return min;
+    }
+
     public static void main(String[] args) {
 
         int[] arr = {4,5,6,7,1,2,3};
 
-        int result = min1(arr);
+        int result = min3(arr);
 
         System.out.println(result);
     }

@@ -37,7 +37,7 @@ public class ContainsDuplicate1 {
     }
 
     // Approach 3:
-    // Time Complexity : O(N)
+    // Time Complexity : O(N).
     // Space Complexity : O(N)
     public static boolean duplicate3(int[] nums)
     {

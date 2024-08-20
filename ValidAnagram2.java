@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class ValidAnagram2 {
 
     // BEST Approach
-    // Time Complexity : O(N)
+    // Time Complexity : O(N).
     // Space Complexity : O(26) == O(1) constant space..
     public static boolean validAnagram1(String s,String t)
     {
